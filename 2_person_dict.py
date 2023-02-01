@@ -20,5 +20,5 @@ for c in person["children"]:
 
 # print out the pets in this format:
 # type of pet: dog name of pert: Fido
-for p, n in person["pets"].items():
-    print(f"type of pet: {p} name of pet {n}")
+for pet, name in person["pets"].items():
+    print(f"type of pet: {pet} name of pet {name}")
