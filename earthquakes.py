@@ -25,6 +25,9 @@ for feature in eq["features"]:
                     "longitude": feature["geometry"]["coordinates"][0],
                     "latitude": feature["geometry"]["coordinates"][1]})
 
+print(eq_dict)
+print('\n')
+
 # 3) using the eq_dict dictionary, print out the information as shown below (first three shown):
 # print(eq_dict)
 
@@ -33,6 +36,7 @@ for i in range(len(eq_dict["mag6"])):
     print(f"Magnitude: {eq_dict['mag6'][i]['magnitude']}")
     print(f"Longitude: {eq_dict['mag6'][i]['longitude']}")
     print(f"Latitude: {eq_dict['mag6'][i]['latitude']}\n\n")
+
 
 # Location: Northern Mid-Atlantic Ridge
 # Magnitude: 6.2
